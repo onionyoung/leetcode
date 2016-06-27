@@ -24,4 +24,4 @@ public class leetcode3 {
 		}
         return goalnumber;
     }
-}
+} 
