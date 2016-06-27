@@ -20,7 +20,7 @@ public class leetcode5 {
         	if(s.charAt(count) == s.charAt(count + 1))return s.substring(count,count+2);
         }
         return null;
-    }
+    } 
 	public static String find(String s){
 		int length = s.length();
 		int ii = 0;
