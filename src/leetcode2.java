@@ -7,7 +7,7 @@ public class leetcode2 {
     } 
 	public static void main(String[] args) {
 		ListNode a = new ListNode(5);
-		//a.next = new ListNode(2);
+		///a.next = new ListNode(2);
 		ListNode b = new ListNode(5);
 		a= addTwoNumbers(a,b);
 		System.out.println(a.val+ "" +a.next.val);
