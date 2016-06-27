@@ -4,7 +4,7 @@ public class leetcode4 {
 		int[] nums1={5,8};
 		int[] nums2 ={};//8
 		System.out.println("1. " + findMedianSortedArrays(nums1,nums2) + " //5");
-		
+		 
 		nums1 = new int[]{};
 		nums2 = new int[]{6};
 		System.out.println("2. " + findMedianSortedArrays(nums1,nums2) + " //6");
