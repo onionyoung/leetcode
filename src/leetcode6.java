@@ -24,7 +24,7 @@ public class leetcode6 {
 		int len = (s.length() - 1) / (numRows -1) +1;
 		char[][] s1 = new char[len][numRows];
 		count = 1;
-		// - , 0 , 0 , 0 , 0 , 
+		// - , 0 , 0 , 0 , 0 
 		for(int col = 0; ; ){
 			for(int i = 1; i < numRows; i++){
 				s1[col][i] = s.charAt(count);
