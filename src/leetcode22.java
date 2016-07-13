@@ -3,19 +3,19 @@ import java.util.List;
 
 public class leetcode22 {
 	
+	static List<String> strList = new ArrayList<String>();
 	public static void main(String[] args) {
 		generateParenthesis(3);
 		
 	}
 	public static List<String> generateParenthesis(int n) {
-		List<String> list = new ArrayList<String>();
+		
 		generateParenthesis(n, n, "", ' ');
-		return null;
+		return strList;
 	
     }
 	
 	public static String generateParenthesis(int nL, int nR, String str, char ch){
-		List<String> strList = new ArrayList<String>();
 		char RParentheses = ')';
 		char LParentheses = '(';
 		String ss;
@@ -39,6 +39,7 @@ public class leetcode22 {
 		}
 		if(nL == 0 && nR == 0){
 			System.out.println(str);
+			strList.add(str);
 			return str;
 		}
 			return str;
